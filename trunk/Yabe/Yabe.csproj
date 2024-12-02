@@ -302,6 +302,7 @@
     <None Include="Resources\calendar_view_week.png" />
     <None Include="Resources\bell.png" />
     <None Include="Resources\date.png" />
+    <Content Include="notes.txt" />
     <Content Include="ReadSinglePropDescr.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

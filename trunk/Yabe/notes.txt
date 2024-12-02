@@ -1,0 +1,3 @@
+﻿* stop Kepware if failed to bind UDP port
+
+* 
