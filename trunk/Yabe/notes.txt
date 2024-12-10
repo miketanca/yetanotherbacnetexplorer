@@ -1,3 +1,9 @@
 ﻿* stop Kepware if failed to bind UDP port
 
+* where the BACnetDeviceLine is added and start the discover process
+
+  YabeMainDialog.addDevicesearchToolStripMenuItem_Click
+
+* SearchDialog constructs main BacnetClient and return the result
+
 * 
