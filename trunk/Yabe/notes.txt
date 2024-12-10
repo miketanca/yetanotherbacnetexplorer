@@ -6,4 +6,8 @@
 
 * SearchDialog constructs main BacnetClient and return the result
 
-* 
+* YabeMainDialog.OnIam receives device registration
+
+* Bacnet.Room.Simulator device id is calculated based on MAC address in
+
+  BacnetActivity.ReInitialize
