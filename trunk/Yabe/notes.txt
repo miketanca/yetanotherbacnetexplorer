@@ -11,3 +11,11 @@
 * Bacnet.Room.Simulator device id is calculated based on MAC address in
 
   BacnetActivity.ReInitialize
+
+* populate address space
+
+  MainDialog.AddObjectNodesAsync
+
+* BacnetClient.OnRecieve is whre incoming messages are received
+
+* 
