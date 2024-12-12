@@ -18,4 +18,9 @@
 
 * BacnetClient.OnRecieve is whre incoming messages are received
 
+* object names are cached in DevicesObjectsName.Add
+
 * 
+  YabeMainDialog.UpdateGrid is where object name is retrieved
+  YabeMainDialog.m_AddressSpaceTree_AfterSelect
+
