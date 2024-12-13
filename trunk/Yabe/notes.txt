@@ -20,7 +20,15 @@
 
 * object names are cached in DevicesObjectsName.Add
 
-* 
-  YabeMainDialog.UpdateGrid is where object name is retrieved
+* where object name is retrieved
+  YabeMainDialog.UpdateGrid
   YabeMainDialog.m_AddressSpaceTree_AfterSelect
+
+* where subscription is created
+
+  YabeMainDialog.CreateSubscriptionAsync
+  polling : YabeMainDialog.ReadPropertySubscriptionPollingInsteadOfCOV
+            polling is done by BACnetDevice.ReadPropertiesAsync
+  cov: SubscribeCOVRequestAsync
+       notification is received at BacnetClient.OnCOVNotification
 
